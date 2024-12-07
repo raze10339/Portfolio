@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "start": "cross-env PORT=$PORT vite preview --port $PORT"
+    "start": "cross-env PORT=${PORT:-3000} vite preview --port ${PORT:-3000}"
   },
   "dependencies": {
     "@types/react": "^18.3.11",
