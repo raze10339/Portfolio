@@ -1,12 +1,12 @@
 const Resume = () => {
     return (
-        <main className= "resume-main">
+        <main className="resume-main">
             <h2>Resume</h2>
 
             <p>
                 Download my:
-                <a href="/raziehzarrabi.pdf" download>
-                     Resume
+                <a href="/files/RAZIEH ZARRABI.pdf" download>
+                    Resume
                 </a>
             </p>
             <section>
