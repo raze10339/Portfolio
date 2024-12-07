@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "start": "cross-env PORT=${PORT:-3000} vite preview --port ${PORT:-3000}"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@types/react": "^18.3.11",
@@ -20,7 +19,6 @@
     "@preact/preset-vite": "^2.9.1",
     "sass-embedded": "^1.80.4",
     "typescript": "^5.5.3",
-    "vite": "^5.4.8",
-    "cross-env": "^7.0.3"
+    "vite": "^5.4.8"
   }
 }
