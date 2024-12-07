@@ -6,9 +6,9 @@ function Header() {
 
     return (
       <header>
-      <div className="logo">
-        <img src="/images/Dino.jpg" alt="Dino Logo" />
-         <h3>Razieh Zarrabi</h3>
+      <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+        <img src="/images/my logo.png" alt="Razieh Logo" style={{ width: '80px', height: '60px' }} />
+        <h3>Razieh Zarrabi</h3>
       </div> 
      
         <Nav />

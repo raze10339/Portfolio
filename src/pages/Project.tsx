@@ -15,6 +15,7 @@ function Project() {
                         <h5>{workObj.title}</h5>
                         <p>{workObj.description}</p>
                         {workObj.repoURL && <Link to={workObj.repoURL}> View Code</Link>}
+                        {workObj.repoURL && workObj.demoURL && <span> | </span>}
                         {workObj.demoURL && <Link to={workObj.demoURL}>View Demo</Link>}
                     </article>
                  

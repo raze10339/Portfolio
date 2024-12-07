@@ -5,7 +5,7 @@ const Resume = () => {
 
             <p>
                 Download my:
-                <a href="/Resume.pdf" download="Razieh_Zarrabi_Resume.pdf">
+                <a href="/raziehzarrabi.pdf" download>
                      Resume
                 </a>
             </p>
@@ -19,6 +19,11 @@ const Resume = () => {
                     <li>Responsive design</li>
                     <li>React</li>
                     <li>Bootstrap</li>
+                    <li>React.js</li>
+                    <li>TypeScript</li>
+                    <li>ReactRouter</li>
+                    <li>ReactBootstrap</li>
+                    <li>Apollo Client</li>
                 </ul>
             </section>
 
@@ -29,6 +34,12 @@ const Resume = () => {
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>MySQL / Sequelize</li>
+                    <li>MongoDB / Mongoose</li>
+                    <li>Apollo Server</li>
+                    <li>GraphQL</li>
+                    <li>JWT</li>
+                    <li>PostgresQL</li>
+                    <li>python</li>
                 </ul>
             </section>
 

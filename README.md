@@ -2,6 +2,12 @@
 # Description
 React portfolio is a modern web application built with React and Vite. It serves as a portfolio showcase, including a contact form, resume page, project gallery, and more. This project is designed with a focus on performance, responsiveness, and accessibility, providing users with an engaging experience across devices.
 
+# Deploy Application
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed82f090-bd28-4088-8e4b-9cf781840070/deploy-status)](https://app.netlify.com/sites/raziehsportfolio/deploys)
+
+https://github.com/raze10339/Portfolio.git
+
 
 
 # React + TypeScript + Vite
