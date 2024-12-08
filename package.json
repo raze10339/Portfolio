@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "start": "vite preview"
+     "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "@types/react": "^18.3.11",
@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.9.1",
+    "@types/node": "^22.10.1",
     "sass-embedded": "^1.80.4",
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
